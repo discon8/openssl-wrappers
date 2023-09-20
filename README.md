@@ -39,5 +39,5 @@ filename.txt.enc
 ```
 
 ## TODO 
-[ ] Add way to display help if nothing is entered 
-[ ] Check to see if a filename was entered as a parameter
+- [ ] Add way to display help if nothing is entered 
+- [ ] Check to see if a filename was entered as a parameter
