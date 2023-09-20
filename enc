@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Encrypting file: $1."
+read -p "Enter a password: "$'\n' -s password
+openssl enc -aes-256-cbc -md sha512 -pbkdf2 -iter 1000000 -salt -in $1 -out $1.enc -k $password
+
